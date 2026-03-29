@@ -15,5 +15,5 @@ def test_divide():
 def test_divide_by_zero():
     assert divide(5, 0) == "Cannot divide by zero"
 
-#def test_divide_fail():
-#    assert divide(10, 2) == 6
+def test_divide_fail():
+    assert divide(10, 2) == 6
